@@ -1,0 +1,4 @@
+Medidas de calibración
+los puntos más oscuros (más cercanos) están a 88 cm de la kinect, y están separados 90 cm entre si
+los puntos más claros (más lejanos) estan a178 cm de la kinect y separados 178 cm entre si
+la base del triángulo es siempre aproxmadamente igual a la altura
