@@ -54,6 +54,10 @@ def onCook(scriptOp):
 			z_coord.append(contour_pixels.mean()/255)
 			# print(f"mid_x: {mid_x}, average pixel value: {round(contour_pixels.mean(),2)}, min_y: {min_y}, max_y: {max_y}")
 
+	# order pairs from left to right
+	pairs = list(zip(x_coord, z_coord))
+	pairs.sort()
+	x_coord, z_coord = zip(*pairs)
 
 	tx.vals = x_coord
 	tz.vals = z_coord
